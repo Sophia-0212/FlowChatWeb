@@ -31,11 +31,9 @@
 	<img src="https://img.shields.io/badge/WukongIm-1.2.10-%236CB52D.svg?logo=WukonIm" alt="Wukongim" />
 </a> &nbsp;
 
-📚 [在线文档](https://tsdaodao.com/) | 🚀 [演示地址](https://web.botgate.cn/)（账号/密码：15900000002/a1234567）
-
 ## 简介
 
-息流 PC 端支持 Web 端、Mac 端、Windows 端、Linux 端，是一款高颜值 IM 即时通讯聊天软件，让企业轻松拥有自己的即时通讯软件。由[悟空 IM](https://githubim.com/)提供动力。
+息流 PC 端支持 Web 端、Mac 端、Windows 端、Linux 端，是一款高颜值 IM 即时通讯聊天软件。
 
 ## Web 版本运行
 
