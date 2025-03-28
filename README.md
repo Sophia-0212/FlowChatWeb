@@ -28,7 +28,7 @@
 	<img src="https://img.shields.io/badge/turbo-2.0.9-%236CB52D.svg?logo=Turbo&logoColor=FFF" alt="Turbo" />
 </a> &nbsp;
 <a href="https://githubim.com/" target="_blank" rel="noopener" style="display:inline-block;">
-	<img src="https://img.shields.io/badge/WukongIm-1.2.10-%236CB52D.svg?logo=WukonIm" alt="flowchatim" />
+	<img src="https://img.shields.io/badge/WukongIm-1.2.10-%236CB52D.svg?logo=flowchatim" alt="flowchatim" />
 </a> &nbsp;
 
 ## 简介
