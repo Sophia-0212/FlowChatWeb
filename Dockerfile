@@ -1,9 +1,7 @@
 FROM node:20.9.0 as builder
 
 # 先更新软件源列表并安装git
-RUN apt-get update && \
-    apt-get install -y git && \
-    apt-get clean
+RUN apt-get update && apt-get install -y git
 
 WORKDIR /app
 RUN curl -o- -L https://yarnpkg.com/install.sh | bash
