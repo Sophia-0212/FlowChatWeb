@@ -5,3 +5,4 @@
 ### Subsection: Git Cherry-pick
 ## Section 3: Git Best Practices
 ### Subsection: Commit Messages
+## Conclusion
