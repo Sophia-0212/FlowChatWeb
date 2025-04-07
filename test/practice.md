@@ -3,3 +3,4 @@
 ## Section 2: Advanced Git
 ### Subsection: Git Rebase
 ### Subsection: Git Cherry-pick
+## Section 3: Git Best Practices
