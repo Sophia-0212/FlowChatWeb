@@ -35,9 +35,9 @@ export enum ThemeMode {
   dark,
 }
 export class WKConfig {
-  appName: string = "唐僧叨叨";
+  appName: string = "息流";
   appVersion: string = "0.0.0"; // app版本
-  themeColor: string = "#E46342"; // 主题颜色
+  themeColor: string = "#80D4EE"; // 主题颜色
   secondColor: string = "rgba(232, 234, 237)";
   pageSize: number = 15; // 数据页大小
   pageSizeOfMessage: number = 30; // 每次请求消息数量
@@ -236,7 +236,7 @@ export default class WKApp extends ProviderListener {
   openChannel?: Channel; // 当前打开的会话频道
   content?: JSX.Element;
 
-  baseContext!: WKBaseContext; // 唐僧叨叨基础上下文
+  baseContext!: WKBaseContext; // 息流基础上下文
 
   private _notificationIsClose: boolean = false; // 通知是否关闭
 
