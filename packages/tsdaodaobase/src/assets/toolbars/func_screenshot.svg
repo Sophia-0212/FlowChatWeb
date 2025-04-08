@@ -3,8 +3,8 @@
     <title>pc_screenshot</title>
     <defs>
         <linearGradient x1="100%" y1="100%" x2="0%" y2="0%" id="linearGradient-1">
-            <stop stop-color="#3170F6" offset="0%"></stop>
-            <stop stop-color="#3170F6" offset="100%"></stop>
+            <stop stop-color="#F6603E" offset="0%"></stop>
+            <stop stop-color="#F17C55" offset="100%"></stop>
         </linearGradient>
     </defs>
     <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">

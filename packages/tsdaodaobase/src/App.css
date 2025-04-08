@@ -1,5 +1,7 @@
-:root {
-    --wk-color-theme: #80D4EE;
+
+
+ :root {
+    --wk-color-theme: #E46342;
     --wk-color-secondary: rgba(246, 246, 246);
     --wk-color-secondary-2:  rgba(246, 246, 246);
     --wk-color-hover: #eee;
@@ -22,13 +24,13 @@
 
     --wk-message-item: white;
     --wk-message-color: #0F0F0F;
-}
+  }
 
-*, *:before, *:after {
+  *, *:before, *:after {
     box-sizing: inherit;
-}
+  }
 
-body[theme-mode=dark] {
+  body[theme-mode=dark] {
     --wk-color-secondary: #0F0F0F;
     --wk-color-secondary-2: rgb(33,33,33);
     --wk-line: 1px solid rgb(255,255,255,0.1);
@@ -40,20 +42,21 @@ body[theme-mode=dark] {
     --wk-message-item: #0F0F0F;
     --wk-message-color: white;
 
-    --semi-color-primary: #80D4EE;
-    --semi-color-primary-hover: rgb(30, 136, 229, 0.5);
-}
+    --semi-color-primary: #E46342;
+    --semi-color-primary-hover: rgb(228, 99, 66,0.5);
 
-/* ::-webkit-scrollbar-thumb:window-inactive {
+  }
+
+  /* ::-webkit-scrollbar-thumb:window-inactive {
     background:rgba(255,0,0,0.4);
-} */
+  } */
 
 html {
     height: 100%;
     box-sizing: border-box;
 }
   
-body {
+  body {
     height: 100%;
     margin: 0;
     margin: 0;
@@ -70,32 +73,32 @@ body {
     background: var( --background-color);
     color: rgba(9,30,66,.87) ;
 
-    --semi-color-primary: #80D4EE;
-}
+    --semi-color-primary: #E46342;
+  }
 
-div {
+  div {
     outline:none; /** 让div没有焦点边框 不加这个 第一次打开Modal会聚焦**/
-}
+  }
   
-#root {
+  #root {
     height: 100%;
-}
+  }
   
-code {
+  code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
-}
+  }
   
   
-.page {
+  .page {
     width: 100%;
     height: 100%;
     background-color: rgb(236, 239, 243);
-}
+  }
   
-.pageContent {
+  .pageContent {
     padding: 0px 40px;
     overflow-y: auto;
-}
+  }
   
     .pageContent.space {
         padding-top: 40px;
@@ -103,12 +106,12 @@ code {
         height: 100%;
     }
   
-@font-face {
+  @font-face {
     font-family: "icomoon";
     src: url("./assets/fonts/icomoon.woff2");
-}
+  }
   
-[class^=icon-], [class*=" icon-"] {
+  [class^=icon-], [class*=" icon-"] {
     font-family: "icomoon" !important;
     speak: none;
     font-style: normal;
@@ -118,36 +121,36 @@ code {
     line-height: 1;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-}
+  }
   
   
   
-ul {
-    list-style-type: none;
-    margin-block-start: 0px;
-    margin-block-end: 0px;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 0px;
-}
+  ul {
+      list-style-type: none;
+      margin-block-start: 0px;
+      margin-block-end: 0px;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      padding-inline-start: 0px;
+  }
   
 
 
-.wk-loading {
+  .wk-loading {
     width: 100%;
     display: flex;
     justify-content: center;
     padding: 15px 0px;
-}
+  }
 
-.wk-text-oneline {
+  .wk-text-oneline {
     display: inline-block;
     white-space: nowrap;
     width: 100%;
     overflow: hidden;
     text-overflow: ellipsis;
-}
+  }
 
-body[theme-mode=dark] .semi-badge-count {
+  body[theme-mode=dark] .semi-badge-count {
     color: white;
-}
+  }
