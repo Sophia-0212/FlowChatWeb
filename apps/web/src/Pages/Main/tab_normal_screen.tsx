@@ -145,7 +145,8 @@ export class TabNormalScreen extends Component<TabNormalScreenProps> {
           <li
             onClick={() => {
               vm.settingSelected = false;
-              WKApp.shared.logout();
+              WKApp.loginInfo.logout();
+              WKApp.route.push('/login');
             }}
           >
             退出登录
