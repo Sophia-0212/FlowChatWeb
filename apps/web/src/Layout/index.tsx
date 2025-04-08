@@ -90,12 +90,17 @@ export default class AppLayout extends Component {
         return <Provider create={() => {
             return WKApp.shared
         }} render={(vm: WKApp): any => {
-            if (!WKApp.shared.isLogined() || window.location.pathname === '/login') {
-                const loginComponent = WKApp.route.get("/login")
-                if (!loginComponent) {
+            if (!WKApp.shared.isLogined()) {
+                const allowedPaths = ['/login', '/register']
+                if (!allowedPaths.includes(window.location.pathname)) {
+                    window.location.href = '/login'
+                    return null
+                }
+                const component = WKApp.route.get(window.location.pathname)
+                if (!component) {
                     return <div>没有登录模块！</div>
                 }
-                return loginComponent
+                return component
             }
             return <WKBase onContext={(ctx) => {
                 WKApp.shared.baseContext = ctx
