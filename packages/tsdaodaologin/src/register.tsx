@@ -84,7 +84,7 @@ class Register extends Component<any, any> {
                             }}>去登录</li>
                             <li>隐私政策</li>
                             <li>用户协议</li>
-                            <li> © 北京沃兹集凯德科技有限公司</li>
+                            {/* <li> © 北京沃兹集凯德科技有限公司</li> */}
                         </ul>
                     </div>
                 </div>
